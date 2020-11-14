@@ -1,0 +1,278 @@
+echo $SHELL
+echo $TERM
+whoai
+whoami
+echo $HOST
+printenv USER
+echo HOLI
+echo $HOST
+echo 'my name is $HOST'
+echo 'my name is $HOST '
+echoc""
+whoami
+echo "my name is $HOST "
+echo today is ´date´
+echo today is 'date'
+echo today is `date`
+echo today is $(date)
+echo todqy is $(echo $(date))
+echo "the world is finally\
+ mine"
+echo "hoy essss \\
+mi dia"
+echo '\
+sadpoij
+echo "my favourite day"
+echo holi
+echo guapi
+echo holi; echo guapi
+for f in $(ls) ; do echo "there is a $f"; done
+cat /etc/os-release
+cd Data/shell
+ls
+cat 
+echo h
+echo $PWD
+cd zsh
+cd /home/dsc
+cd ~
+cd ..
+cd -
+ls -a
+ls -al
+ls -1
+ls -1 -s
+ls --help
+ls -lls
+ls -la
+ls -lsar
+ls -lat
+chmod 777 .history
+ls -l .history
+chmod 755 .history
+ls -l .history
+chmod 644 .history
+ls -l .history
+chmod 600 .history
+ls -l .historyu
+ls -l .history
+mkdir holiguapi
+ls
+mkdir -p holiguapi/cosas/nazis
+ls
+touch newfile
+ls
+ls -l
+touch anaconda3
+ls -l
+cp holiguapi/cosas/nazis
+cp newlife holiguapi/cosas/nazis
+ls mynuevofolder
+cp holiguapi mynuevofolder
+cp newlife holiguapi/cosas/nazis
+mkdir -p /home/first_dir
+mkdir first_dir
+touch first_dir/text_file.txt
+chmod 210 .text_file.txt
+chmod 210 first_dir/text_file.txt
+ls
+ls -l
+mkdir -p first_dir/sub1
+mkdir -p first_dir/sub2
+mkdir -p first_dir/text_file
+cp first_dir/text_file.txt first_dir/sub1
+chmod 454 first_dir/text_file.txt
+cp first_dir/text_file.txt first_dir/sub1
+chmod 775 first_dir/text_file.txt
+cp first_dir/text_file.txt first_dir/sub2
+mv first_dir/sub1 first_dir
+git
+git config --global user.name "Carlos Jerez"
+git config --global user.email "carlosjepe@gmail.com"
+cat ~/.gitconfig
+git clone https://github.com/carlosjepe/kschool-master-26.git
+ls
+ls -a
+cd kschool-master-26
+ls
+ls -a
+touch chachi_file
+git status
+touch lame_file
+git status
+git add chachi_file
+git status
+git commit -m 'Aniado un archivo chachi'
+git status
+git push
+cd
+mkdir Repos
+cd Repos
+git clone https://github.com/carlosjepe/master_26_clase.git
+ll
+git clone https://github.com/carlosjepe/master_26_clase.git master_26_copy
+ll
+cd master_26_clase
+ll -a
+cd ..
+cd master_26_copy
+rm -rf .git
+cd .. /master_26_clase
+cd ../master_26_clase
+ll
+gedit README.md
+gedit readme.md
+ll
+git status
+git add README.md
+git status
+git commit
+git log
+gedit gedit README.md
+gedit README.md
+git add -u
+git status
+git commit -m
+git commit -m "added second line"
+git log
+ll
+gedit README.md
+git add -u
+git commit -m "added second line"
+ll
+git push
+git add readme.md
+git commit -m "New file added"
+git push
+cd .
+cd ..
+git init master_from_local
+ll
+ll .a
+ll -a
+cd
+cd Repos/master_from_local
+ll -a
+cd
+git init
+cd ..
+cd
+cd Repos
+cd master_26_clase
+cd
+rm -rf ~/.git
+cd -
+cd ..
+cd master_from_local
+touch my_ideas.txt
+gedit my_ideas.txt
+git add my_ideas.txt
+git commit -m "my initial idea"
+gedit my_second_idea.txt
+git status
+git log
+git status
+gedit my_ideas.txt
+git status
+git add -u
+git status
+git add my_second_idea.txt
+git status
+git commit -m "second idea added"
+git log
+git remote add origin https://github.com/carlosjepe/My_Ideas.git
+git branch -M main
+git push -u origin main
+git pull
+git log
+cd
+man 
+/ren
+man
+ren
+man
+man cd
+man cp
+less .gitconfig
+bck-i-search
+man cd
+cd
+cd 
+cd
+alias
+l
+type l
+type ll
+MASTER=kschool
+echo ~MASTER
+echo $MASTER
+alias gc= "git commit -m"
+gc test
+alias gs="git status"
+gs
+echo $MASTER
+which python
+whereis python
+sudo which python
+which pip
+head Finn.tct
+head Finn.txt
+cd Data/shell
+head Finn.tct
+head Finn.txt
+head -5 Finn.txt
+head -n 5 Finn.txt
+tail Finn.txt
+wc Finn.txt
+w -l Finn.txt
+wc -l Finn.txt
+echo "HELP MEEEE"
+echo "HELP MEEE" | wc
+wc Text_example.txt
+cat Text_example.txt
+cat Text_example.txt | wc
+cat Text_example.txt | head 10 | wc
+cat Text_example.txt | head | wc
+cat Text_example.txt | head -3 | wc
+head -3 Text_example.txt | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wx > salida
+ll
+cat salida
+file salida
+cat Text_example.txt | wc > salida
+cat salida
+cat Text_example.txt | wc >> salida
+cat salida
+cd
+cd Data/opentraveldata
+ls
+ls -s
+ls -S
+ls -s -S
+cp optd_por_public.csv largest_file.txt
+ls
+ls -s -S
+head -5 Finn.txt | wc
+head Finn.txt
+cd
+cd Data/shell
+LS
+ls
+head Finn.txt
+head -5 Finn.txt | wc
+cat Text_example.txt | head -3 | wc
+cat Text_example.txt | head -3 | less -N
+cat -n Text_example.txt | head -3
+cd
+cd Repos
+cd ClasesMaster
+git init ClasesMaster
+cd ClasesMaster
+mkdir Shellk
+mkdir Shell
+mkdir Python
+mkdir Challenge
+cd Shell
+cat ~/.history > Shell-Clase-2020-11-14
+cat ~/.history > Shell-Clase-2020-11-14.txt
