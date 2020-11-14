@@ -276,3 +276,69 @@ mkdir Challenge
 cd Shell
 cat ~/.history > Shell-Clase-2020-11-14
 cat ~/.history > Shell-Clase-2020-11-14.txt
+ll
+gedit Shell_clase2020.txt
+git add Shell-Clase-2020-11-14.txt
+cd ..
+git status
+git commit -m "commands ls, pipe, head, tail ,less"
+rm Shell/Shell-Clase-2020-11-14
+rm -r Shellk
+ll
+git status
+git add shell_clase2020.txt
+git status
+git remote add origin https://github.com/carlosjepe/ClassesMaster26.git\
+git branch -M main\
+git push -u origin main
+ll
+cd
+find
+find | wc
+find . -name "text_file*"
+find -type d -iname "tExt_file*"
+find -type f -iname "tExt_file*"
+find -type f -maxdepth 5 -mindepth 2 -iname "tExt_file*"
+find -maxdepth 5 -mindepth 2 -type f -iname "tExt_file*"
+sudo find -type f ! -perm 777
+dfdffd
+sudo find -type f -size 0 | wc -l
+sudo find -type f -size +10M | wc -l
+sudo find -type f -mmin -60
+sudo find -type f -iname "text_file*"
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" \;
+echo this ; echo that
+echo this \; echo that
+;
+sudo find -type f -iname "text_file*"
+sudo find -type f -iname "text_file*" -exec ls -l {} \; -exec head -2 {}
+sudo find -type f -iname "text_file*" -exec ls -l {} \; -exec head -2 {} \;   
+sudo find -type f -iname "text_file*" -ok ls -l {} \;   
+sudo find -type f -iname "text_file*" -exec ls -l {} \; -exec "head -2{} | wc" \;
+bash -c "echo This"
+bash -c "cd ../ ; ls -l"
+bash -c "cd ../ ; ls -l > file"
+bash -c "cd ../ ; ls -l > ./dsc/file"  
+ll
+sudo find -type f -iname "text_file*" -exec bash -c "head -2 {} | wc" \;
+find -mmin -60
+sudo find -mmin -60 | wc
+sudo find -mmin -60 | wc -c
+sudo find -mmin -60
+sudo find -mmin -60 less -N
+sudo find -mmin -60 | less -N
+sudo -n find -mmin -60
+sudo find f -mmin -60
+sudo find -type f -mmin -60
+sudo find -type f -empty ! -perm 777 
+sudo find -type f -empty -ok ! -perm 777
+cd Repos
+ll
+cd ClasesMaster
+cd Shell
+ll
+cd Shell_clase2020.txt\
+
+rm Shell_clase2020.txt
+ll
+cat ~/.history > Shell-Clase-2020-11-14.txt
